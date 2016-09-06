@@ -1,7 +1,5 @@
-require 'minitest'
-require 'minitest/spec'
-require 'minitest/autorun'
-require 'minitest/reporters'
+require_relative 'spec_helper'
+require_relative '../lib/market'
 
 class Market < Minitest::Test
 
